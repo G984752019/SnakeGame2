@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/SnakeGame.css">
+  </head>
+  <body>
+    <canvas id="canvas" width="400" height="400"></canvas><br>
+    <p class="explanation">Score to clear</p>
+    <p class="explanation" id="Max">...</p>
+    <div>
+      <button type="button" class="control" onclick ="start()">START</button>
+      <button type="button" class="control"onclick ="stop()">STOP</button>
+      <button type="button" class="control" onclick ="reset()">RESET</button>
+    </div>
+    <p class="test-h4" id="score">...</p>
+    <p>point</p>
+    <div>
+      <button type="button" class="level" onclick="easy()">EASY</button>
+      <button type="button" class="level" onclick ="normal()">NORMAL</button>
+      <button type="button" class="level" onclick ="hard()">HARD</button>
+      <p>Level</p>
+      <p class="test-h4" id="level">...</p>
+    </div>
+    <script src="js/keyPush.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

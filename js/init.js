@@ -1,0 +1,32 @@
+document.addEventListener('keydown', keyPush);
+
+const canv = document.getElementById("canvas");
+const ctx = canv.getContext("2d");
+const SIZE = 20;
+let FPS = 10;
+const MIN = 1;
+const MAX = 500;
+
+let np = SIZE/2;
+let nd = 0;
+let px = py = np;
+let xd = yd = nd;
+let snake = [];
+let tail = MIN;
+const napple = 15;
+let appleX = appleY = napple;
+const napple2 = 5;
+const napple3 = 8;
+const napple4 = 18;
+let apple2X = apple2Y = napple2;
+let apple3X = napple2;
+let apple3Y = napple;
+let apple4X = napple;
+let apple4Y = napple3;
+let apple5X = napple4;
+let apple5Y = napple3;
+let apple6X = napple;
+let apple6Y = napple4;
+let score = 0;
+let level = 0;
+let count = 0;

@@ -1,0 +1,36 @@
+body {
+  background-color: #90ee908a;
+}
+
+p{
+  display: inline-block;
+}
+
+.explanation{
+    font-size: 24px;
+}
+
+.test-h4{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.control{
+  display: inline-block;
+  background: white;
+  font-size: 20px;
+}
+
+.control:active{
+  background: gray;
+}
+
+.level{
+  display: inline-block;
+  background: white;
+  font-size: 20px;
+}
+
+.level:active{
+  background: gray;
+}
